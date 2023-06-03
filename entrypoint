@@ -2,4 +2,13 @@
 
 set -eu -o pipefail
 
-echo "Hello World"
+msg() {
+    echo "-> " "$@"
+}
+
+fatal() {
+    echo "FATAL:" "$@" >&2
+    exit 1
+}
+
+echo "work in progress.."
