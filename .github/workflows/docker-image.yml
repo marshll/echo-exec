@@ -23,8 +23,8 @@ jobs:
 
     - name: Build and push Docker image
       uses: docker/build-push-action@v4
-        with:
-          context: .
-          file: ./Dockerfile
-          push: true
-          tags: marshll/echo-exec:latest
+      with:
+        context: .
+        file: ./Dockerfile
+        push: true
+        tags: marshll/echo-exec:latest
