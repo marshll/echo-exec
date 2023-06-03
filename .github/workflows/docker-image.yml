@@ -30,4 +30,4 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: marshll/echo-exec:latest
+        tags: marshll/exec:latest
